@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #d6f0ff;
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/blue_background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 400px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+ 
+nav ul li a{
+    color: #1d75bd;
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 18px;
+}
+
+.header-text{
+    margin-top: 5%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 55px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.header-text h1 span{
+    color: #1d75bd;
+}
+
+.header-text img{
+    left: 50%;
+}
+
+#about{
+    padding: 80px 0;
+    color:azure;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 130%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 70px;
+    font-weight: 600;
+    color: #1d75bd;
+    margin-left: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-col-2 p{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 25;
+    margin-top: 20px;
+    color: #778f9b;
+    margin-left: 90px;
+    text-align: left;
+}
+
+#work{
+    padding: 10px 0;
+
+}
+
+.partA{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.partB{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.partC{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.partC2{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.partA1{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.partA2{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.partA3{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.excel_lav{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.dice{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#work h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:#1d75bd;
+}
+#work em,p{
+    color:#778f9b;
+}
+#work {
+    display: inline-block;
+    list-style: none;
+}
+#work a{
+    margin: 10px 10px;
+    font-size: 10px;
+}
+
+#contact{
+    margin-bottom: 20px;
+
+}
+
+.contact-left{
+    flex-basis: 35%
+}
+
+.contact-right{
+    flex-basis: 60%
+}
+
+.contact-left p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.contact-right{
+    width: 100%;
+}
+
+form .btn{
+    display: inline-block;
+    background: #1d75bd;
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    margin: 15px 0;
+    color: #778f9b;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
